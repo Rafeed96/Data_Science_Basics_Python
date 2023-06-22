@@ -14,7 +14,12 @@ print("Area of the football feild is:",aread)
 #    and you gave shopkeeper 20 dollar.
 #    Find out using python, how many dollars is the shopkeeper going to give you back?
 
-
+packets = 9
+chips_cost = 1.49
+total = packets * chips_cost
+dollar = 20
+change = dollar - total
+print("The shopkeeper will return $",change,"in change")
 
 
 # 3. You want to replace tiles in your bathroom which is exactly square and 5.5 feet

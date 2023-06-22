@@ -37,3 +37,7 @@ total_cost_for_tile = total_bathroom_area * tile_cost
 print("The total cost to replace the bathroom tiles is:",total_cost_for_tile,"Rs")
 
 # 4. Print binary representation of number 17
+
+num = 17
+binary = format(num,'b')
+print(binary)

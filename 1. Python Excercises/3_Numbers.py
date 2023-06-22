@@ -27,5 +27,13 @@ print("The shopkeeper will return $",change,"in change")
 #    cost to replace all tiles. Calculate and print the cost using python
 #    Hint: Use power operator (**) to find area of a square
 
+length = 5.5
+
+area = length * width
+tile_cost = 500
+
+total_bathroom_area = length**2
+total_cost_for_tile = total_bathroom_area * tile_cost
+print("The total cost to replace the bathroom tiles is:",total_cost_for_tile,"Rs")
 
 # 4. Print binary representation of number 17

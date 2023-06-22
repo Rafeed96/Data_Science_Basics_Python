@@ -2,7 +2,12 @@
 # store entire address. Use two ways of creating this variable, one using + operator and the other using f-string.
 # Now Print the address in such a way that the street, city and country prints in a separate line
 
+street = "Nurjahan Road"
+city = "Dhaka"
+country = "Bangladesh"
+address = street + "\n" + city +  "\n" + country
 
+print(address)
 
 
 # 2. Create a variable to store the string "Earth revolves around the sun"

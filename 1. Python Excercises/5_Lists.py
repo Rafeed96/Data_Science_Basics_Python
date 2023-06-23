@@ -16,7 +16,11 @@ print("Extra dollars spent compared to January: ", extra_cost)
 
 # 2. Find out your total expense in first quarter (first three months) of the year.
 
-
+sum = 0
+for i in range(0,3):
+    sum = sum+ expense[i]
+    
+print("Expenses for the first quarter: ",sum)
 
 # 3. Find out if you spent exactly 2000 dollars in any month
 

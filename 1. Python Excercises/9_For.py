@@ -20,7 +20,7 @@ for i in range(1,11):
     if i % 2 == 1:
         val = i**2
         print(val)
-
+print("")
 
 # 3. Your monthly expense list (from Jan to May) looks like this,
 # ```
@@ -30,6 +30,21 @@ for i in range(1,11):
 # should tell you in which month that expense occurred. If expense is not
 # found then it should print that as well.
 
+expense_list = [2340, 2500, 2100, 3100, 2980]
+
+months = ["Jan", "Feb", "Mar", "Apr", "May"]
+
+expense = 298
+flag = False
+n = len(expense_list)
+print("")
+for i in range(0, n):
+    if expense == expense_list[i]:
+        print(months[i])
+        flag = True
+
+if flag == False:
+    print("No monthly expense matched !!")
 
 
 
@@ -41,9 +56,22 @@ for i in range(1,11):
 #    3. If you reply "no" then it should continue and ask "are you tired" on every km
 #    4. If you finish all 5 km then it should print congratulations message
 
+res = ""
+f = False
+for i in range(1,6):
+    print("You completed",i,"km. Are you tired?")
+    res = input()
 
+    if res == "yes":
+        print("you didn't finish the race")
+        f = True
+        break
+        
+    elif res =="no":
+        print("great, keep going!!")
 
-
+if f == False :
+    print("Congratulations")
 
 # 5. Write a program that prints following shape
 # ```
@@ -53,7 +81,7 @@ for i in range(1,11):
 # ****
 # *****
 # ```
-
+print("")
 for i in range(5):
     for j in range(5):
         if i>=j:

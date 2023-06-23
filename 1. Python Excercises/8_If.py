@@ -59,3 +59,12 @@ else:
 #     2. If it is below 80 to 100 range then print that sugar is low
 #     3. If it is above 100 then print that it is high otherwise print that it is normal
 
+print("Please enter you fasting sugar level")
+f_sugar = 156
+
+if f_sugar < 80 :
+    print("Sugar is low")
+elif f_sugar > 100 :
+    print("Sugar is high")
+else:
+    print("Sugar is normal")

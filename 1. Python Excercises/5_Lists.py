@@ -24,7 +24,16 @@ print("Expenses for the first quarter: ",sum)
 
 # 3. Find out if you spent exactly 2000 dollars in any month
 
+flag = False
+print(" ")
+for i in expense:
+    if i == 2000:
+        flag = True
 
+if flag == True:
+    print("Yes")
+else:
+    print("No")
 
 # 4. June month just finished and your expense is 1980 dollar. Add this item to our monthly expense list
 

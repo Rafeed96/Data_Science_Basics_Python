@@ -6,10 +6,13 @@
 #   5. May - 2190
 #
 # Create a list to store these monthly expenses and using that find out,
-#
+
+expense = [2200, 2350, 2600, 2130, 2190]
+
 # 1. In Feb, how many dollars you spent extra compare to January?
 
-
+extra_cost = expense[1] - expense[0]
+print("Extra dollars spent compared to January: ", extra_cost)
 
 # 2. Find out your total expense in first quarter (first three months) of the year.
 

@@ -36,10 +36,17 @@ else:
     print("No")
 
 # 4. June month just finished and your expense is 1980 dollar. Add this item to our monthly expense list
-
-
+print("")
+June = 1980
+expense.append(June)
+print(expense)
 
 
 # 5. You returned an item that you bought in a month of April and
 # got a refund of 200$. Make a correction to your monthly expense list
 # based on this
+print("")
+refund = 200
+
+expense[3] = expense[3]-refund
+print("Updated Expense after refund: ",expense)

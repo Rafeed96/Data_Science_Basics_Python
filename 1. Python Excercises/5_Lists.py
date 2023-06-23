@@ -76,10 +76,19 @@ print(heros)
 #     so remove it from the list first and then add it after 'hulk'
 
 heros.remove("black panther")
-
 heros.insert(3, "black panther")
 print(heros)
+
 # 2.4 Now you don't like thor and hulk because they get angry easily :)
 #     So you want to remove thor and hulk from list and replace them with doctor strange (because he is cool).
 #     Do that with one line of code.
+
+heros.remove("hulk")
+heros.remove("thor")
+heros.insert(1, "doctor strange")
+print(heros)
+
 # 2.5 Sort the heros list in alphabetical order (Hint. Use dir() functions to list down all functions available in list)
+
+heros.sort()
+print(heros)

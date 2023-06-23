@@ -40,9 +40,22 @@ pakistan = ["lahore","karachi","islamabad"]
 bangladesh = ["dhaka", "khulna", "rangpur"]
 
 city1 = "dhaka"
-city2 = "rangpur"
+city2 = "karachi"
 
-if city1 in bangladesh and city2 in bangladesh or city1 in india and city2 in india or city1 in pakistan and city2 in pakistan :
-    print("You are in the same country")
+if city1 in bangladesh and city2 in bangladesh:
+    print("Both cities are in Bangladesh")
+elif city1 in india and city2 in india:
+    print("Both cities are in India")
+elif city1 in pakistan and city2 in pakistan:
+    print("Both cities are in Pakistan")
 else:
-    print("You are not in the same country")
+    print("They don't belong to same country")
+
+
+
+## Exercise: Python If Condition
+# 2. Write a python program that can tell you if your sugar is normal or not. Normal fasting level sugar range is 80 to 100.
+#     1. Ask user to enter his fasting sugar level
+#     2. If it is below 80 to 100 range then print that sugar is low
+#     3. If it is above 100 then print that it is high otherwise print that it is normal
+

@@ -22,3 +22,17 @@ def calculate_area2(base, height, shape="triangle"):
     return area
 
 print(calculate_area2(4,6,"rectangle"))
+
+# 3. Write a function called print_pattern that takes integer number as an argument and prints following pattern if input number is 3,
+# *
+# **
+# ***
+
+def shape(num):
+    for i in range(0,num):
+        for j in range(0,num):
+            if i>=j:
+                print("*",end=" ")
+        print("")
+
+shape(3)
